@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawe/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Trung-web</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav class="container">
+                <a id="logo" href="">
+                    <img src="./images/a321d3950b2c63ae0cb5c6ab4f6213b3_o.jpg" alt="" >
+                </a>
+                <div id="check">
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+                <ul id="main-menu">
+                    <li><a class="login" href="./javascrip/login.html">Đăng Nhập</a></li>
+                    <li><a href="">Đăng Ký</a></li>
+                    <li><a href="">Tài Khoản Của Tôi</a></li>
+                    <li><a class="shop" href="">Giỏ hàng</a></li>
+                    <li><a  href=""><i class="fa-solid fa-heart" style="color: #db1f29; font-size: 25px;"></i></a></li>
+                    <li><a href=""><img src="./images/download.png" alt="" width="50px"></a></li>
+                </ul>
+            </nav>
+            <nav class="container">
+                <ul id="main-menu1">
+                    <li><a href="">Sản Phẩm</a>
+                        <ul class="sup-menu">
+                            <li><a href="./Font/html/crush.html">Crush</a></li>
+                            <li><a href="">Menu2</a></li>
+                            <li><a href="">Menu3</a>
+                                <ul class="sup-menu">
+                                    <li><a href="./Font/html/baitap.html">Product</a></li>
+                                    <li><a href="">Menu2</a></li>
+                                    <li><a href="">Menu3</a></li>
+                                    <li><a href="">Menu4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Menu4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Tủ Bếp</a>
+                        <ul class="sup-menu">
+                            <li><a href="">Menu1</a></li>
+                            <li><a href="">Menu2</a></li>
+                            <li><a href="">Menu3</a></li>
+                            <li><a href="">Menu4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">New Lines</a></li>
+                    <li><a href="">Ưa Đãi</a></li>
+                    <li><a href="">Clearance</a></li>
+                    <li><a href="">Dịch Vụ</a>
+                        <ul class="sup-menu">
+                            <li><a href="./javascrip/cat.html">Product1</a></li>
+                            <li><a href="">Menu2</a>
+                                <ul class="sup-menu">
+                                    <li><a href="./javascrip/tiktok.html">Product2</a></li>
+                                    <li><a href="">Menu2</a>
+                                        <ul class="sup-menu">
+                                            <li><a href="">Menu1</a></li>
+                                            <li><a href="">Menu2</a></li>
+                                            <li><a href="">Menu3</a></li>
+                                            <li><a href="">Menu4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Menu3</a></li>
+                                    <li><a href="">Menu4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./javascrip/girl.html">Girl</a></li>
+                            <li><a href="">Menu4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <!-- <div></div>
+        <div></div> -->
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>></script>
+<script>
+    $(document).ready(function(){
+        $('.sup-menu').parent('li').addClass('has-chill');
+        $('.shop').parent('li').addClass('has-chil');
+        $('input').parent('div').addClass('has-input');
+        $('.login').parent('li').addClass('logins');
+    });
+    
+</script>
+</html>
